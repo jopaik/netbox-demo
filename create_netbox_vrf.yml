@@ -9,8 +9,8 @@
   tasks:
     - name: Create site within Netbox with only required information
       netbox.netbox.netbox_vrf:
-        netbox_url: http://192.168.1.35:8000
-        netbox_token: 802d28ad644ba97702a3bf8a34e081b1fd0669fe
+        netbox_url: "{{ NETBOX_URL }}"
+        netbox_token: "{{ NETBOX_API_KEY }}"
         data:
           name: Test - Joon VRF Demo
         state: present
