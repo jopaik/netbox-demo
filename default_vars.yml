@@ -1,0 +1,4 @@
+NETBOX_URL: http://192.168.1.35.:8000
+NETBOX_API_KEY: 802d28ad644ba97702a3bf8a34e081b1fd0669fe
+netbox_url: "{{ lookup('ENV', 'NETBOX_URL') }}"
+netbox_token: "{{ lookup('ENV', 'NETBOX_API_KEY') }}"

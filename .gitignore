@@ -1,0 +1,6 @@
+hosts
+.DS_Store
+*priv*
+*.log
+*.pyc
+private
